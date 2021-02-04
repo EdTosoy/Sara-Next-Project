@@ -5,7 +5,12 @@ export default function Collection() {
       <main className="col-start-2 col-end-2 grid md:grid-cols-2 gap-5 md: justify-between ">
         <div className="flex border p-4  rounded-md  justify-around mb-4 shadow-md items-center">
           <div className="">
-            <Image src="/images/backpackMan.png" width={130} height={150} />
+            <Image
+              src="/images/backpackMan.png"
+              width={130}
+              height={150}
+              alt="collection"
+            />
           </div>
           <div className=" text-3xl">
             <h1 className="text-gray-600">MEN</h1>
@@ -24,7 +29,12 @@ export default function Collection() {
             </button>
           </div>
           <div className="">
-            <Image src="/images/backpackWoman.png" width={130} height={150} />
+            <Image
+              src="/images/backpackWoman.png"
+              width={130}
+              height={150}
+              alt="collection"
+            />
           </div>
         </div>
       </main>
