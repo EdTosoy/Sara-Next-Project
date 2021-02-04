@@ -12,10 +12,10 @@ export default function HomePage() {
   return (
     <div className="">
       <Head>
-        <title>Redstore</title>
+        <title>SARA</title>
         <meta
           name="description"
-          content="Our menu is constantly evolving, yet always abides by a few simple constants. All of our cooking revolves around open wood fire. We work with a small group of fisherman, hunters, gatherers, ranchers, and farmers to find and follow microclimates that produce specific tastes from wild foods. Lastly, we steer clear of imported and commercial goods, opting instead to build our own pantry through patient harvesting and preservation."
+          content="SARA Group is a Singaporean multinational technology company which focuses mainly on e-commerce. Founded by Maximilian Bittner with the backing of Rocket Internet in 2012, it is currently owned by the Sara Group after its acquisition in 2016"
         />
       </Head>
       <Header />
