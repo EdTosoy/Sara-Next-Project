@@ -4,7 +4,7 @@ export default function NewsLetter() {
   1;
   const logos = [1, 2, 3, 4];
   return (
-    <section className="grid-container pt-20 pb-10 ">
+    <section className="grid-container pt-20 pb-10 " id="Subscribe">
       <main className="col-start-2 col-end-2">
         <div className="text-center">
           <h1 className="font-semibold mb-4 text-2xl">OUR NEWSLETTER</h1>

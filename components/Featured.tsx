@@ -25,7 +25,7 @@ export default function Featured() {
     },
   ];
   return (
-    <section className="grid-container pt-20 pb-10 ">
+    <section className="grid-container pt-20 pb-10 " id="Featured">
       <main className="col-start-2 col-end-2">
         <div className="text-center">
           <h1 className="font-semibold mb-4 text-2xl">FEATURED PRODUCTS</h1>
@@ -35,7 +35,10 @@ export default function Featured() {
 
           <div className="grid gap-5 md:grid-cols-4 ">
             {featuredProducts.map(({ image, name, price }) => (
-              <div className="border p-4 bg-gray-200 relative cursor-pointer transform hover:-translate-y-5  " key={name}>
+              <div
+                className="border p-4 bg-gray-200 relative cursor-pointer transform hover:-translate-y-5  "
+                key={name}
+              >
                 <div className="bg-pitch p-2 absolute  text-white top-0 left-0 text-sm ">
                   NEW
                 </div>

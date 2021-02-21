@@ -35,7 +35,7 @@ export default function NewArrivals() {
     },
   ];
   return (
-    <section className="grid-container pt-20 pb-10 ">
+    <section className="grid-container pt-20 pb-10 " id="New">
       <main className="col-start-2 col-end-2">
         <div className="text-center">
           <h1 className="font-semibold mb-4 text-2xl">NEW ARRIVALS</h1>
